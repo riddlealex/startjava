@@ -1,6 +1,6 @@
-class VariableNamesTheme {
+class VariablesTheme {
     public static void main(String[] args) {
-        System.out.println("1.Вывод характеристик компьютера");
+        System.out.println("1.Вывод характеристик компьютера\n");
 
         byte cores = 8; // количество ядер
         short ram = 16; // объем оперативной памяти в ГБ
@@ -15,10 +15,9 @@ class VariableNamesTheme {
         System.out.println("Частота процессора: " + cpuFrequency + " МГц");
         System.out.println("Температура процессора: " + temperature + " °C");
         System.out.println("Время работы от батареи: " + batteryLife + " часов");
-        System.out.println();
 
         // Задание 2: Расчет стоимости товара со скидкой
-        System.out.println("2. Расчет стоимости товара со скидкой");
+        System.out.println("\n2. Расчет стоимости товара со скидкой\n");
         double penPrice = 105.5;
         double bookPrice = 235.83;
         double discount = 0.11;
@@ -31,19 +30,15 @@ class VariableNamesTheme {
         System.out.println("Сумма скидки: " + discountAmount + " руб.");
         System.out.println("Стоимость товаров со скидкой: " + priceWithDiscount + " руб.");
 
-        System.out.println();
-
         // Задание 3: Вывод слова JAVA
-        System.out.println("3. Вывод слова JAVA");
+        System.out.println("\n3. Вывод слова JAVA\n");
         System.out.println("    J    a  v     v  a");
         System.out.println("    J   a a  v   v  a a");
         System.out.println(" J  J  aaaaa  V V  aaaaa");
         System.out.println("  JJ  a     a  V  a     a");
 
-        System.out.println();
-
         // Задание 4: Вывод min и max значений целых числовых типов
-        System.out.println("4. Вывод min и max значений целых числовых типов");
+        System.out.println("\n4. Вывод min и max значений целых числовых типов\n");
         byte byteValue = 127;
         short shortValue = 32767;
         int intValue = 2147483647;
@@ -65,10 +60,8 @@ class VariableNamesTheme {
         System.out.println("long после инкремента: " + (++longValue));
         System.out.println("long после декремента: " + (--longValue));
 
-        System.out.println();
-
         // Задание 5: Перестановка значений переменных
-        System.out.println("5. Перестановка значений переменных");
+        System.out.println("\n5. Перестановка значений переменных\n");
         int a = 2;
         int b = 5;
         System.out.println("Исходные значения: a = " + a + ", b = " + b);
@@ -95,10 +88,8 @@ class VariableNamesTheme {
         a = a ^ b;
         System.out.println("Перестановка с побитовой операцией: a = " + a + ", b = " + b);
 
-        System.out.println();
-
         // Задание 6: Вывод символов и их кодов
-        System.out.println("6. Вывод символов и их кодов");
+        System.out.println("\n6. Вывод символов и их кодов\n");
         char dollar = 36;
         char asterisk = 42;
         char atSign = 64;
@@ -111,26 +102,22 @@ class VariableNamesTheme {
         System.out.println((int)pipe + " - " + pipe);
         System.out.println((int)tilde + " - " + tilde);
 
-        System.out.println();
-
         // Задание 7: Вывод в консоль ASCII-арт Дюка
-        System.out.println("7. Вывод в консоль ASCII-арт Дюка");
-        char backslash = '/';
-        char space = ' ';
+        System.out.println("\n7. Вывод в консоль ASCII-арт Дюка\n");
+        char slash = '/';
+        char backslash = '\\';
         char underscore = '_';
-        char parentheses = '(';
-        char rightParenthesis = ')';
-        
-        System.out.println("   " + backslash + space + backslash);
-        System.out.println("  " + backslash + space + space + backslash);
-        System.out.println(" " + backslash + underscore + parentheses + rightParenthesis + backslash);
-        System.out.println(backslash + space + space + space + space + backslash);
-        System.out.println(backslash + underscore + underscore + underscore + backslash + underscore + space + backslash + underscore + backslash);
+        char openBracket = '(';
+        char closeBracket = ')';
 
-        System.out.println();
+        System.out.println("    " + slash + backslash);
+        System.out.println("   " + slash + "  " + backslash);
+        System.out.println("  " + slash + underscore + openBracket + " " + closeBracket + backslash);
+        System.out.println(" " + slash + "      " + backslash);
+        System.out.println("" + slash + underscore + underscore + underscore + underscore + slash + backslash + underscore + underscore + backslash);
 
         // Задание 8: Манипуляции с сотнями, десятками и единицами числа
-        System.out.println("8. Манипуляции с сотнями, десятками и единицами числа");
+        System.out.println("\n8. Манипуляции с сотнями, десятками и единицами числа\n");
         int number = 543;
         int hundreds = number / 100;
         int tens = (number % 100) / 10;
@@ -146,10 +133,8 @@ class VariableNamesTheme {
         System.out.printf("Сумма разрядов = %d\n", sum);
         System.out.printf("Произведение разрядов = %d\n", product);
 
-        System.out.println();
-
         // Задание 9: Перевод секунд в часы, минуты и секунды
-        System.out.println("9. Перевод секунд в часы, минуты и секунды");
+        System.out.println("\n9. Перевод секунд в часы, минуты и секунды\n");
         int totalSeconds = 86399;
         int hours = totalSeconds / 3600;
         int minutes = (totalSeconds % 3600) / 60;

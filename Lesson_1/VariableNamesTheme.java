@@ -1,8 +1,7 @@
-class VariableNamesTheme {
+class VariableNamessme {
     public static void main(String[] args) {
         // 1.Разные переменные
-        System.out.println("1.Разные переменные");
-        System.out.println();
+        System.out.println("1.Разные переменные\n");
 
         // цифра
         int digit = 1;
@@ -61,8 +60,8 @@ class VariableNamesTheme {
         System.out.println("Случайное число = " + randomNumber);
 
         // математическое выражение
-        int mathematicalExpression = 2 + 2;
-        System.out.println("Математическое выражение = " + mathematicalExpression);
+        int mathExpression = 2 + 2;
+        System.out.println("Математическое выражение = " + mathExpression);
 
         // счет в игре
         int gameScore = 10;
@@ -85,12 +84,12 @@ class VariableNamesTheme {
         System.out.println("Дата начала = " + startDate);
 
         // окончание диапазона
-        int rangeEnd = 100;
-        System.out.println("Окончание диапазона = " + rangeEnd);
+        int endRange = 100;
+        System.out.println("Окончание диапазона = " + endRange);
 
         // полное имя работника месяца
-        String employeeOfTheMonthFullName = "Иван Иванов";
-        System.out.println("Полное имя работника месяца = " + employeeOfTheMonthFullName);
+        String employeeOfMonthFullName = "Иван Иванов";
+        System.out.println("Полное имя работника месяца = " + employeeOfMonthFullName);
 
         // заголовок электронной книги
         String ebookTitle = "Книга";
@@ -116,23 +115,20 @@ class VariableNamesTheme {
         int numbersPerLine = 10;
         System.out.println("Количество чисел в каждой строке = " + numbersPerLine);
 
-        System.out.println();
-
         //2.boolean-переменные
-        System.out.println("2.boolean-переменные");
-        System.out.println();
+        System.out.println("\n2.boolean-переменные\n");
 
         // сотни равны?
-        boolean areHundredsEqual = false;
-        System.out.println("Сотни равны? = " + areHundredsEqual);
+        boolean isHundredsEqual = false;
+        System.out.println("Сотни равны? = " + isHundredsEqual);
 
         // компьютер включен?
         boolean isComputerOn = true;
         System.out.println("Компьютер включен? = " + isComputerOn);
 
         // есть равные цифры?
-        boolean equalDigits = true;
-        System.out.println("Есть равные цифры? = " + equalDigits);
+        boolean isEqualDigits = true;
+        System.out.println("Есть равные цифры? = " + isEqualDigits);
 
         // создано?
         boolean isCreated = false;
@@ -151,22 +147,20 @@ class VariableNamesTheme {
         System.out.println("Новое? = " + isNew);
 
         // электронная почта действительная?
-        boolean emailValid = true;
-        System.out.println("Электронная почта действительная? = " + emailValid);
+        boolean isEmailValid = true;
+        System.out.println("Электронная почта действительная? = " + isEmailValid);
 
         // имеются уникальные строки?
-        boolean uniqueStrings = true;
-        System.out.println("Имеются уникальные строки? = " + uniqueStrings);
+        boolean isUniqueStrings = true;
+        System.out.println("Имеются уникальные строки? = " + isUniqueStrings);
 
-        System.out.println();
 
         // 3.Аббревиатуры 
-        System.out.println("3.Аббревиатуры");
-        System.out.println();
+        System.out.println("\n3.Аббревиатуры\n");
 
         // старый universally unique identifier
-        String oldUUID = "12345678-1234-1234-1234-1234567890AB";
-        System.out.println("Старый universally unique identifier = " + oldUUID);
+        String oldUuid = "12345678-1234-1234-1234-1234567890AB";
+        System.out.println("Старый universally unique identifier = " + oldUuid);
 
         // производитель оперативной памяти
         String ramManufacturer = "Samsung";
@@ -185,8 +179,8 @@ class VariableNamesTheme {
         System.out.println("Сокращенный uniform resource locator = " + shortUrl);
 
         // новый идентификатор клиента
-        String newClientId = "98765432";
-        System.out.println("Новый идентификатор клиента = " + newClientId);
+        String newCid = "98765432";
+        System.out.println("Новый идентификатор клиента = " + newCid);
 
         // american standard code for information interchange
         String ascii = "ASCII";
